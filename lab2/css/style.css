@@ -1,0 +1,132 @@
+body {
+    margin: 0 0 0 0;
+    padding: 0;
+    width: 100%;
+    font-family: 'Arial', serif;
+    font-size: 18px;
+    background-image: url(/png.png);
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+}
+
+#sevilla_logo {
+    height: 60px;
+    width: 60px;
+    margin-right: 20px;
+    float: right;
+}
+
+
+header {
+    background-color: #000000;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+nav {
+    width: 960px;
+    height: 63px;
+    margin: 0;
+    text-align: left;
+}
+
+header ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+header ul li {
+    display: inline-block;
+    opacity: 0.8;
+}
+
+header ul li:hover {
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+    border-color: #ff0000;
+}
+
+header ul li a,
+visited {
+    color: #ffffff;
+    display: block;
+    padding: 20px 40px 20px 40px;
+    text-deco0ation: none;
+}
+
+header ul li a:hover {
+    color: #ff0000;
+    text-decoration: none;
+}
+
+header ul li:hover ul {
+    display: block;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+header ul ul {
+    text-align: center;
+    display: none;
+    position: absolute;
+    background-color: #ffffff;
+    border-top: 0;
+    margin-left: -7px;
+}
+
+header ul ul li {
+    display: block;
+}
+
+header ul ul li a,
+visited {
+    color: #ff0000;
+}
+
+header ul ul li a:hover {
+    color: #ff0000;
+}
+
+
+
+#footer {
+    text-align: center;
+    bottom: 0;
+    padding: 10px 0 10px 0;
+    background-color: #000000;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    font-size: 12px;
+}
+
+#footer_wrapper {
+    width: 960px;
+    height: auto;
+    margin: 0 auto;
+}
+
+footer {
+    display: inline-block;
+    color: #ffffff;
+}
+
+#footer a {
+    margin: 0px 2px 0px 2px;
+    color: #ffffff;
+}
+
+
+#content {
+    margin: 230px 0 0px 0;
+    padding: 10px 0 10px 0;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+#content_wrapper {
+    width: 960px;
+    margin: 0 auto;
+    color: #000000;
+}
+
+#header_content {
+    font-size: 25px;
+}
