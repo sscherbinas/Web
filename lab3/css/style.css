@@ -1,0 +1,199 @@
+body {
+    margin: 0 0 0 0;
+    padding: 0;
+    width: 100%;
+    font-family: 'Arial', serif;
+    font-size: 18px;
+    background-image: url(/img/png.png);
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+}
+
+#sevilla_logo {
+    animation-name: slide_rotate_unhide;
+    animation-duration: 2s;
+    height: 60px;
+    width: 60px;
+    margin-right: 20px;
+    float: right;
+}
+
+
+.news {
+    height: 250px;
+    width: 250px;
+    filter: alpha (Opacity=25);
+    opacity: 0.75;
+}
+
+.news:hover {
+    filter: alpha (Opacity=100);
+    opacity: 1;
+
+}
+
+.container {
+    background: #ffffff;
+}
+
+#section-title {
+    text-align: center;
+}
+
+.news-item {
+    display: inline-block;
+    justify-content: center;
+    margin-left: 50px;
+    margin-right: 20px;
+}
+
+.news-item:last-child {
+    margin-right: 0px;
+}
+
+/*----------Navigation----------*/
+
+header {
+    animation-name: slide;
+    animation-duration: 2s;
+    background-color: #000000;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+nav {
+    width: 960px;
+    height: 63px;
+    margin: 0;
+    text-align: left;
+}
+
+header ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+header ul li {
+    display: inline-block;
+}
+
+
+#news_content {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header ul li:hover {
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+    border-color: #ff0000;
+}
+
+header ul li a,
+visited {
+    color: #ffffff;
+    display: block;
+    padding: 20px 40px 20px 40px;
+    text-decoration: none;
+}
+
+header ul li a:hover {
+    color: #ff0000;
+    text-decoration: none;
+}
+
+header ul li:hover ul {
+    display: block;
+}
+
+header ul ul {
+    text-align: center;
+    display: none;
+    position: absolute;
+    background-color: #000000;
+    border-top: 0;
+}
+
+header ul ul li {
+    display: block;
+}
+
+header ul ul li a,
+visited {
+    color: #ff0000;
+}
+
+header ul ul li a:hover {
+    color: #ff0000;
+}
+
+/*----------Footer----------*/
+
+#footer {
+    text-align: center;
+    bottom: 0;
+    padding: 10px 0 10px 0;
+    background-color: #000000;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    font-size: 12px;
+}
+
+#footer_wrapper {
+    width: 960px;
+    height: auto;
+    margin: 0 auto;
+}
+
+footer {
+    display: inline-block;
+    color: #ffffff;
+}
+
+#footer a {
+    margin: 0px 2px 0px 2px;
+    color: #ffffff;
+}
+
+/*---------Main body----------*/
+
+#content {
+    margin: 230px 0 0px 0;
+    padding: 10px 0 10px 0;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+#content_wrapper {
+    width: 960px;
+    margin: 0 auto;
+    color: #000000;
+}
+
+#header_content {
+    font-size: 25px;
+}
+
+
+@keyframes slide_rotate_unhide {
+    from {
+        transform: rotate(0deg);
+        opacity: 0.0;
+        margin-left: -100px;
+    }
+
+    to {
+        transform: rotate(360deg);
+        opacity: 1;
+        margin-right: 20px;
+    }
+}
+
+@keyframes slide {
+    from {
+        margin-top: -100px;
+    }
+
+    to {
+        margin-top: 0px;
+    }
+}
