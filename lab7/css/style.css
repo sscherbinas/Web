@@ -1,0 +1,138 @@
+body {
+    margin: 0 0 0 0;
+    padding: 0;
+    font-family: 'Arial', serif;
+    font-size: 20px;
+    background-image: url(/img/1.jpg);
+    overflow: visible;
+}
+
+
+#content {
+    margin: 230px 0 0px 0;
+    padding: 10px 0 10px 0;
+    background-color: white;
+}
+
+.container {
+    background-color: white;
+    opacity: 0.95;
+    margin-top: 20px;
+}
+
+#content_wrapper {
+    position: relative;
+    margin: auto;
+    color: #000000;
+}
+
+#header_content {
+    text-align: center;
+    font-size: 27px;
+}
+
+.bg-dark {
+    background-color: black!important;
+}
+
+.footer-copyright {
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    
+}
+
+.img-fluid{
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+/*News*/
+.card-img-top {
+    height: 250px;
+    width: 250px;
+}
+
+.card-block{
+    height: auto;
+    width: 250px;
+}
+
+.card {
+    display: inline-block;
+    justify-content: center;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.card:firt-child {
+    margin-left: 0px;
+}
+
+#header_content1{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.img-responsive{
+    height: auto;
+    width: 400px;
+}
+
+
+/*Fans*/
+
+p {
+    line-height: 28px;
+    margin-bottom: 25px;
+}
+
+.divider {
+    width: 100%;
+    height: 3px;
+    background-color: #2e2d2d;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.review-author {
+    text-align: right;
+    float: right;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+#submitBtn{
+    background-color: #800000;
+    border-color:#800000;
+}
+
+
+/*Admin*/
+
+img {
+    float: left;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.input-form {
+    display: flex;
+}
+
+#newsForm {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#addPicture {
+    float: right;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    z-index: 20;
+}
+
+#submit-btn{
+    background-color: #800000;
+    border-color:#800000;
+}
